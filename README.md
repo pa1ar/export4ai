@@ -4,7 +4,7 @@
 
 Script that grabs all text from files in a folder, wraps it up, and preps it for AI. No more copy-paste nightmares.
 
-[![live action](https://img.youtube.com/vi/JX4JoIbI8QE/maxresdefault.jpg)](https://www.youtube.com/watch?v=JX4JoIbI8QE)
+https://github.com/user-attachments/assets/018d86d3-6a84-409f-ac7b-1f6b3eefab1f
 
 ## why care?
 
