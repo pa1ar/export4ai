@@ -4,6 +4,8 @@
 
 Script that grabs all text from files in a folder, wraps it up, and preps it for AI. No more copy-paste nightmares.
 
+<video controls src="export4ai_demo.mp4" title="Title"></video>
+
 ## why care?
 
 Need to feed text files to an external AI chatbot? This script does it in seconds. Helpful for iterative back-and-forth.  

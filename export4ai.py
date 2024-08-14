@@ -3,9 +3,9 @@ import argparse
 import sys
 
 def parse_arguments():
-  parser = argparse.ArgumentParser(description='Export files content in a folder or specific files with optional exclusion.')
-  parser.add_argument('paths', nargs='+', help='Files or folders to include. Defaults to the current directory.')
-  parser.add_argument('-x', '--exclude', nargs='+', help='Excluded folders or files')
+  parser = argparse.ArgumentParser(description='the script exports textual content of all files in a folder and subfolders, or specific files, with optional exclusion of files/subfolders; also it wraps the content into some messages around it making it ready to be sent to the AI model')
+  parser.add_argument('paths', nargs='+', help='files or folders to include; defaults to the current directory')
+  parser.add_argument('-x', '--exclude', nargs='+', help='excluded folders or files')
 
   # Show help if no arguments are provided
   if len(sys.argv) == 1:
