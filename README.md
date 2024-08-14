@@ -4,7 +4,7 @@
 
 Script that grabs all text from files in a folder, wraps it up, and preps it for AI. No more copy-paste nightmares.
 
-<video controls src="export4ai_demo.mp4" title="Title"></video>
+[live action](export4ai_demo.mp4)
 
 ## why care?
 
