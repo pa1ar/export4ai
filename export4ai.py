@@ -3,13 +3,9 @@ import argparse
 
 def parse_arguments():
   parser = argparse.ArgumentParser(description='Export files content with optional folder exclusion.')
-  parser.add_argument('-i', '--include', nargs='+', help='Included folders')
+  parser.add_argument('folders', nargs='*', default=['.'], help='Folders to include. Defaults to the current directory.')
   parser.add_argument('-x', '--exclude', nargs='+', help='Excluded folders')
   return parser.parse_args()
-
-args = parse_arguments()
-included_folders = args.include if args.include else []
-excluded_folders = args.exclude if args.exclude else []
 
 def get_directory_content(folder_list, excluded_folders):
   content = ""
@@ -34,7 +30,7 @@ def main(list_of_folders, excluded_folders):
 
 if __name__ == "__main__":
   args = parse_arguments()
-  included_folders = args.include if args.include else []
+  included_folders = args.folders
   excluded_folders = args.exclude if args.exclude else []
   
   content = main(included_folders, excluded_folders)
