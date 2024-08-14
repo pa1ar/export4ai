@@ -4,7 +4,7 @@
 
 Script that grabs all text from files in a folder, wraps it up, and preps it for AI. No more copy-paste nightmares.
 
-[live action](export4ai_demo.mp4)
+[![live action](https://img.youtube.com/vi/JX4JoIbI8QE/maxresdefault.jpg)](https://www.youtube.com/watch?v=JX4JoIbI8QE)
 
 ## why care?
 
@@ -12,6 +12,9 @@ Need to feed text files to an external AI chatbot? This script does it in second
 Save time, look cool.
 
 ## usage
+
+### **clone it:**
+   - `git clone https://github.com/pa1ar/export4ai`
 
 ### **alias it:**
    - Add to `~/.zshrc` or `~/.bashrc`:
