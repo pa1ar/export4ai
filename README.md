@@ -36,4 +36,9 @@ Assuming you in the right folder (your project or whatever).
 3. **specific files:**
    - `4aiexport file1.txt file2.py` - Just these.
 
+## **tips**
+
+- if you want to copy the output to clipboard, add `| pbcopy` at the end of the command
+- you can modify the wrapping of the script in the `4aiexport.py` file to your liking 
+
 That is all.
